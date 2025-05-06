@@ -1,54 +1,108 @@
 # Product Order Microservices
 
-### Описание
-Это проект, состоящий из двух микросервисов:
 
-- **Order Service** — сервис для оформления заказов.
-- **Product Service** — сервис для управления продуктами и их количеством на складе.
 
-### Технологии
-- **.NET 8** — основной фреймворк.
-- **Entity Framework Core** — для работы с базой данных (In-Memory).
-- **Serilog** — для логирования.
-- **Swagger** — для API документации и тестирования.
+### Description.
 
-### Запуск
+This is a project consisting of two microservices:
 
-1. Версия **.NET 8**.
-2. Клонируй репозиторий:
+
+
+- **Order Service** - service for placing orders.
+
+- **Product Service** - service for managing products and their quantity in stock.
+
+
+
+### Technologies
+
+- **.NET 8** - core framework.
+
+- **Entity Framework Core** - for working with database (In-Memory).
+
+- **Serilog** - for logging.
+
+- **Swagger** - for API documentation and testing.
+
+
+
+### Startup
+
+
+
+1. Version **.NET 8**.
+
+2. Clone the repository:
+
     ```bash
+
     git clone https://github.com/nikitaslit/ProductOrderMicroservices.git
+
     cd ProductOrderMicroservices
+
     ```
-3. Запуск двух микросервисов:
+
+3. Starting two microservices:
+
     ```bash
-    # Запуск Order Service
+
+    # Start Order Service
+
     cd OrderService
+
     dotnet run
 
-    # Запуск Product Service
+
+
+    # Start Product Service
+
     cd ProductService
+
     dotnet run
+
     ```
 
-4. Доступ к API:
+
+
+4. API access:
+
     - **Order Service**: [http://localhost:5020/swagger](http://localhost:5020/swagger)
+
     - **Product Service**: [http://localhost:5283/swagger](http://localhost:5283/swagger)
 
-### Что не сделано:
-- **gRPC** — не реализовано, используется **HTTP REST**.
-- **RabbitMQ / Kafka** — не настроен обмен сообщениями.
-- **Docker** — контейнеризация не настроена.
-- **JWT / IdentityServer** — аутентификация не настроена.
+
+
+### What's not done:
+
+- **gRPC** - not implemented, uses **HTTP REST**.
+
+- **RabbitMQ / Kafka** - no messaging configured.
+
+- **Docker** - containerization is not configured.
+
+- **JWT / IdentityServer** - authentication is not configured.
+
+
 
 ---
 
-### Логирование
-Логи записываются с помощью **Serilog** в консоль и файл.
+
+
+### Logging
+
+Logs are written using **Serilog** to console and file.
+
+
 
 ---
 
-### Примечания:
-1. **In-Memory Database** для разработки.
-2. Простая настройка, быстрое развертывание.
-3. API документировано через **Swagger**.
+
+
+#### Notes:
+
+1. **In-Memory Database** for development.
+
+2. Easy setup, fast deployment.
+
+3. API documented via **Swagger**.
+

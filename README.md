@@ -14,13 +14,13 @@
 
 ### Запуск
 
-1. Убедись, что у тебя установлен **.NET 8**.
+1. Версия **.NET 8**.
 2. Клонируй репозиторий:
     ```bash
     git clone https://github.com/nikitaslit/ProductOrderMicroservices.git
     cd ProductOrderMicroservices
     ```
-3. Запусти оба микросервиса:
+3. Запуск двух микросервисов:
     ```bash
     # Запуск Order Service
     cd OrderService
@@ -44,7 +44,7 @@
 ---
 
 ### Логирование
-Логи записываются с помощью **Serilog** в консоль и файл (`logs/productservice_log.txt`).
+Логи записываются с помощью **Serilog** в консоль и файл.
 
 ---
 

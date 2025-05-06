@@ -1,0 +1,86 @@
+2025-05-06 14:47:26.369 +05:00 [INF] Now listening on: https://localhost:7086
+2025-05-06 14:47:26.426 +05:00 [INF] Now listening on: http://localhost:5283
+2025-05-06 14:47:26.430 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-06 14:47:26.431 +05:00 [INF] Hosting environment: Development
+2025-05-06 14:47:26.431 +05:00 [INF] Content root path: C:\Users\nikit\RiderProjects\testzada\ProductService
+2025-05-06 14:47:26.652 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7086/swagger - null null
+2025-05-06 14:47:26.699 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7086/swagger - 301 0 null 47.3244ms
+2025-05-06 14:47:26.710 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7086/swagger/index.html - null null
+2025-05-06 14:47:26.848 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7086/swagger/index.html - 200 null text/html;charset=utf-8 138.0309ms
+2025-05-06 14:47:26.953 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7086/swagger/swagger-ui.css - null null
+2025-05-06 14:47:26.953 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7086/swagger/index.css - null null
+2025-05-06 14:47:26.953 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7086/swagger/swagger-ui-standalone-preset.js - null null
+2025-05-06 14:47:26.954 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7086/swagger/swagger-ui-bundle.js - null null
+2025-05-06 14:47:26.954 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7086/swagger/index.js - null null
+2025-05-06 14:47:26.969 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7086/swagger/index.js - 200 null application/javascript;charset=utf-8 14.9913ms
+2025-05-06 14:47:26.991 +05:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-05-06 14:47:26.993 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7086/swagger/index.css - 200 202 text/css 39.427ms
+2025-05-06 14:47:27.012 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-05-06 14:47:27.012 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-05-06 14:47:27.018 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7086/swagger/swagger-ui.css - 200 154949 text/css 64.7542ms
+2025-05-06 14:47:27.018 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7086/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 64.2227ms
+2025-05-06 14:47:27.071 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-05-06 14:47:27.074 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7086/swagger/swagger-ui-bundle.js - 200 1466908 text/javascript 119.8424ms
+2025-05-06 14:47:27.405 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7086/swagger/v1/swagger.json - null null
+2025-05-06 14:47:27.427 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7086/swagger/favicon-32x32.png - null null
+2025-05-06 14:47:27.430 +05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-05-06 14:47:27.432 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7086/swagger/favicon-32x32.png - 200 628 image/png 4.7999ms
+2025-05-06 14:47:27.571 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7086/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 165.9849ms
+2025-05-06 14:48:05.948 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7086/api/product - application/json 48
+2025-05-06 14:48:05.964 +05:00 [INF] Executing endpoint 'ProductService.Controllers.ProductController.AddProduct (ProductService)'
+2025-05-06 14:48:06.008 +05:00 [INF] Route matched with {action = "AddProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ProductService.Model.Product]] AddProduct(ProductService.Model.Product) on controller ProductService.Controllers.ProductController (ProductService).
+2025-05-06 14:48:06.326 +05:00 [INF] Executing action method ProductService.Controllers.ProductController.AddProduct (ProductService) - Validation state: "Valid"
+2025-05-06 14:48:06.881 +05:00 [INF] Saved 1 entities to in-memory store.
+2025-05-06 14:48:06.895 +05:00 [INF] Executed action method ProductService.Controllers.ProductController.AddProduct (ProductService), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 562.0308ms.
+2025-05-06 14:48:06.903 +05:00 [INF] Executing CreatedAtActionResult, writing value of type 'ProductService.Model.Product'.
+2025-05-06 14:48:06.966 +05:00 [INF] Executed action ProductService.Controllers.ProductController.AddProduct (ProductService) in 952.6121ms
+2025-05-06 14:48:06.968 +05:00 [INF] Executed endpoint 'ProductService.Controllers.ProductController.AddProduct (ProductService)'
+2025-05-06 14:48:06.972 +05:00 [INF] HTTP POST /api/product responded 201 in 1009.6962 ms
+2025-05-06 14:48:06.980 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7086/api/product - 201 null application/json; charset=utf-8 1031.7417ms
+2025-05-06 14:48:15.205 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7086/api/product/1 - null null
+2025-05-06 14:48:15.210 +05:00 [INF] Executing endpoint 'ProductService.Controllers.ProductController.GetProduct (ProductService)'
+2025-05-06 14:48:15.229 +05:00 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ProductService.Model.Product]] GetProduct(Int32) on controller ProductService.Controllers.ProductController (ProductService).
+2025-05-06 14:48:15.233 +05:00 [INF] Executing action method ProductService.Controllers.ProductController.GetProduct (ProductService) - Validation state: "Valid"
+2025-05-06 14:48:15.568 +05:00 [INF] Executed action method ProductService.Controllers.ProductController.GetProduct (ProductService), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 333.6684ms.
+2025-05-06 14:48:15.572 +05:00 [INF] Executing OkObjectResult, writing value of type 'ProductService.Model.Product'.
+2025-05-06 14:48:15.574 +05:00 [INF] Executed action ProductService.Controllers.ProductController.GetProduct (ProductService) in 344.2043ms
+2025-05-06 14:48:15.576 +05:00 [INF] Executed endpoint 'ProductService.Controllers.ProductController.GetProduct (ProductService)'
+2025-05-06 14:48:15.577 +05:00 [INF] HTTP GET /api/product/1 responded 200 in 366.7787 ms
+2025-05-06 14:48:15.579 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7086/api/product/1 - 200 null application/json; charset=utf-8 373.6835ms
+2025-05-06 14:49:43.378 +05:00 [INF] Application is shutting down...
+2025-05-06 14:53:12.091 +05:00 [INF] Now listening on: http://localhost:5283
+2025-05-06 14:53:12.475 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-06 14:53:12.635 +05:00 [INF] Hosting environment: Development
+2025-05-06 14:53:12.672 +05:00 [INF] Content root path: C:\Users\nikit\RiderProjects\testzada\ProductService
+2025-05-06 14:53:14.322 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5283/swagger/v1/swagger.json - null null
+2025-05-06 14:53:14.898 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5283/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 580.0161ms
+2025-05-06 14:53:28.872 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5283/api/product - application/json 52
+2025-05-06 14:53:28.888 +05:00 [INF] Executing endpoint 'ProductService.Controllers.ProductController.AddProduct (ProductService)'
+2025-05-06 14:53:28.933 +05:00 [INF] Route matched with {action = "AddProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ProductService.Model.Product]] AddProduct(ProductService.Model.Product) on controller ProductService.Controllers.ProductController (ProductService).
+2025-05-06 14:53:29.231 +05:00 [INF] Executing action method ProductService.Controllers.ProductController.AddProduct (ProductService) - Validation state: "Valid"
+2025-05-06 14:53:29.750 +05:00 [INF] Saved 1 entities to in-memory store.
+2025-05-06 14:53:29.761 +05:00 [INF] Executed action method ProductService.Controllers.ProductController.AddProduct (ProductService), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 524.8379ms.
+2025-05-06 14:53:29.773 +05:00 [INF] Executing CreatedAtActionResult, writing value of type 'ProductService.Model.Product'.
+2025-05-06 14:53:29.819 +05:00 [INF] Executed action ProductService.Controllers.ProductController.AddProduct (ProductService) in 881.4037ms
+2025-05-06 14:53:29.821 +05:00 [INF] Executed endpoint 'ProductService.Controllers.ProductController.AddProduct (ProductService)'
+2025-05-06 14:53:29.823 +05:00 [INF] HTTP POST /api/product responded 201 in 937.8198 ms
+2025-05-06 14:53:29.830 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5283/api/product - 201 null application/json; charset=utf-8 959.0789ms
+2025-05-06 14:56:22.050 +05:00 [INF] Application is shutting down...
+2025-05-06 14:56:39.342 +05:00 [INF] Now listening on: http://localhost:5283
+2025-05-06 14:56:39.387 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-06 14:56:39.388 +05:00 [INF] Hosting environment: Development
+2025-05-06 14:56:39.389 +05:00 [INF] Content root path: C:\Users\nikit\RiderProjects\testzada\ProductService
+2025-05-06 14:56:40.065 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5283/swagger/v1/swagger.json - null null
+2025-05-06 14:56:40.301 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5283/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 239.8732ms
+2025-05-06 14:57:11.179 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5283/api/product - application/json 49
+2025-05-06 14:57:11.193 +05:00 [INF] Executing endpoint 'ProductService.Controllers.ProductController.AddProduct (ProductService)'
+2025-05-06 14:57:11.234 +05:00 [INF] Route matched with {action = "AddProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ProductService.Model.Product]] AddProduct(ProductService.Model.Product) on controller ProductService.Controllers.ProductController (ProductService).
+2025-05-06 14:57:11.536 +05:00 [INF] Executing action method ProductService.Controllers.ProductController.AddProduct (ProductService) - Validation state: "Valid"
+2025-05-06 14:57:12.062 +05:00 [INF] Saved 1 entities to in-memory store.
+2025-05-06 14:57:12.077 +05:00 [INF] Executed action method ProductService.Controllers.ProductController.AddProduct (ProductService), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 533.9519ms.
+2025-05-06 14:57:12.089 +05:00 [INF] Executing CreatedAtActionResult, writing value of type 'ProductService.Model.Product'.
+2025-05-06 14:57:12.139 +05:00 [INF] Executed action ProductService.Controllers.ProductController.AddProduct (ProductService) in 900.4377ms
+2025-05-06 14:57:12.141 +05:00 [INF] Executed endpoint 'ProductService.Controllers.ProductController.AddProduct (ProductService)'
+2025-05-06 14:57:12.146 +05:00 [INF] HTTP POST /api/product responded 201 in 952.7760 ms
+2025-05-06 14:57:12.152 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5283/api/product - 201 null application/json; charset=utf-8 973.7185ms
+2025-05-06 15:00:16.740 +05:00 [INF] Application is shutting down...
